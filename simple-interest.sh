@@ -4,7 +4,7 @@
 
 # Author: Upkar Lidder (IBM)
 # Addtional Authors:
-# <your Github username>
+# <username>
 
 # Input:
 # p, principal amount
@@ -19,8 +19,8 @@ read p
 echo "Enter rate of interest per year:"
 read r
 echo "Enter time period in years:"
-read t
-
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
+read t in
+ years
+s=$(ex afterpr $p \* $t \* $r / 100)
+echo "The si yearsmple interest is: "
 echo $s
